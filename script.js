@@ -1,7 +1,11 @@
-document.getElementById("joinForm").addEventListener("submit", function(e){
+function openMenu(){
 
-e.preventDefault()
+document.getElementById("sideMenu").style.width="250px";
 
-alert("Müraciətiniz qəbul edildi. Telegram ilə əlaqə saxlayacağıq.")
+}
 
-})
+function closeMenu(){
+
+document.getElementById("sideMenu").style.width="0";
+
+}
