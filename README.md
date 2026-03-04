@@ -1,2 +1,0 @@
-# kitichat
-kiti live
